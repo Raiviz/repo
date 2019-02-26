@@ -1,0 +1,43 @@
+<html>
+
+    <head>
+        <title>
+            Javascript atkartojums
+        </title>
+    </head>
+    <body>
+        <h1>Javascript</h1>
+        <p>Press F12 key or ctrl+I. Look in console</p>
+
+    <script>
+        let str="This is a new string"
+        console.log("My string: ",str)
+        // property
+        let len=str.length
+        console.log(`Length of string: `,len)
+        let incNew=str.includes(`new`)
+        console.log(`Includes new: `, incNew)
+        let cups=str.toUpperCase()
+        let lower=str.toLowerCase()
+        console.log(cups,lower)
+        let repl=str.replace(`This`,`Hello This`)
+        console.log(repl)
+        let text=`today is beatiful weather, `
+        let str1=str.slice(0,7)
+        let str2=str.slice(7)
+        newStr=str1.concat(text,str2)
+        console.log(newStr)
+
+        let name = "Myfile.txt"
+        console.log(`NAME TIPS = `,typeof name);
+        var ext =  name.split('.').pop()
+        console.log(ext)
+        console.log("ADDED GITsss")
+
+        let age=20
+        console.log(`Person age: `,age)
+        console.log(`Person age: ${age}`)
+    </script>
+    </body>
+
+</html>
